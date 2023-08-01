@@ -5,6 +5,8 @@ from django.urls import reverse_lazy
 from .models import Task
 from django.contrib.auth.views import LoginView
 
+# Class based views.
+
 
 class CustomLoginView(LoginView):
     template_name = "base/login.html"
