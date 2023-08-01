@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "todo"
+version = "0.1.0"
+description = "Simple to-do app based on Django."
+authors = ["bkitw"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+black = "^23.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
