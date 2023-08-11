@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Simple to-do app based on Django."
 authors = ["bkitw"]
 license = "MIT"
-readme = "README.md"
+readme = "README.rst"
 
 [tool.poetry.dependencies]
 python = "^3.11"
